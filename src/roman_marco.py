@@ -11,7 +11,7 @@ def valida_numero(num):
 	if num.isalpha():
 		return False
 	num = float(num)
-	if int(num) <= 0 or int(num) > 3999:
+	if int(num) <= 0 or int(num) >= 4000:
 		return False
 	return True
 

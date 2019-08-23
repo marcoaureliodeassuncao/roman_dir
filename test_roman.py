@@ -15,7 +15,7 @@ class Tester(unittest.TestCase):
 		self.assertFalse(valida_numero('-1'))
 		self.assertFalse(valida_numero('XX'))
 		self.assertTrue(valida_numero('2.7'))
-		self.asserFalse(valida_numero('0'))
+		self.assertFalse(valida_numero('0'))
 		pass
 
 	def test_numero_para_romano(self):
